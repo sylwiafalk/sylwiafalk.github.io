@@ -1,0 +1,250 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sylwia Falk</title>
+  <meta property="og:title" content="Sylwia Falk"/>
+  <meta property="og:url" content="https://www.sylwiafalk.com"/>
+  <meta property="og:site_name" content="Sylwia Falk"/>
+  <meta property="og:type" content="website"/>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+  <style>
+  .diamond-grid {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      grid-gap: 0;
+      justify-items: center;
+      align-items: center;
+    }
+    .diamond {
+      width: 180px;
+      height: 180px;
+      overflow: hidden;
+      margin: 4px;
+    }
+    .diamond img {
+      width: 100%;
+      height: 100%;
+    }
+  </style>
+  <style>
+    .infinity-scroll {
+      background-image: url('images/infinity-scroll.jpeg');
+      background-attachment: fixed;
+      background-size: cover;
+      background-position: bottom;
+      height: 40vh;
+      width: 100%;
+    }
+  </style>
+</head>
+<body class="text-gray-900">
+
+  <!-- Infinity Scroll Section -->
+  <section class="infinity-scroll flex items-center justify-center">
+  </section>
+
+  <!-- Hero Section -->
+  <section class="py-16">
+    <div class="max-w-7xl mx-auto px-4 text-center max-w-screen-md mb-16">
+      <h1 class="text-6xl font-bold mb-14">Hello, I'm Sylwia Falk</h1>
+      <p class="mb-4 leading-8">I'm a creative technologist with over 6 years of professional experience with a passion for beauty and cosmetics. My interest in cosmetics formulation was born during my Chemical Technology studies in Cracow. I worked for top global brands in the FMCG manufacturing and Health Care sectors.</p>
+      <p class="mb-4 leading-8">Travel and outdoor sports addict. Nature and animals lover. Healthy lifestyle enthusiast.</p>
+    </div>
+
+    <!-- Gallery Section -->
+    <div class="max-w-7xl mx-auto px-4 py-4 text-center max-w-screen-lg">
+      <div class="flex flex-wrap justify-center diamond-grid">
+        <div class="diamond rounded-full">
+          <a href="images/gallery-1.webp" data-lightbox="gallery" data-title="Gdańsk Pier, Poland">
+            <img src="images/gallery-1.webp">
+          </a>
+        </div>
+        <div class="diamond rounded-full">
+          <a href="images/gallery-2.webp" data-lightbox="gallery" data-title="First Cliff Walk by Tissot, Switzerland">
+            <img src="images/gallery-2.webp">
+          </a>
+        </div>
+        <div class="diamond rounded-full">
+          <a href="images/gallery-3.webp" data-lightbox="gallery" data-title="El Gouna, Egypt">
+            <img src="images/gallery-3.webp">
+          </a>
+        </div>
+        <div class="diamond rounded-full">
+          <a href="images/gallery-4.webp" data-lightbox="gallery" data-title="Beskidy Mountains, Poland">
+            <img src="images/gallery-4.webp">
+          </a>
+        </div>
+        <div class="diamond rounded-full">
+          <a href="images/gallery-5.webp" data-lightbox="gallery" data-title="Jaworzno, Poland">
+            <img src="images/gallery-5.webp">
+          </a>
+        </div>
+        <div class="diamond rounded-full">
+          <a href="images/gallery-6.webp" data-lightbox="gallery" data-title="Tatra Mountains, Poland">
+            <img src="images/gallery-6.webp">
+          </a>
+        </div>
+        <div class="diamond rounded-full">
+          <a href="images/gallery-7.webp" data-lightbox="gallery" data-title="Maja, My Dog">
+            <img src="images/gallery-7.webp">
+          </a>
+        </div>
+        <div class="diamond rounded-full">
+          <a href="images/gallery-8.webp" data-lightbox="gallery" data-title="Tatra Mountains, Poland">
+            <img src="images/gallery-8.webp">
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Industries Section -->
+  <section id="industries" class="bg-gray-200 py-16" style="background-color: #e5f0fecc;">
+    <div class="max-w-7xl mx-auto px-4">
+      <h2 class="text-3xl font-bold mb-10 text-center">Industries</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="text-center">
+          <img src="images/industries-cosmetic-products.webp" alt="Face cream" class="h-32 w-32 mx-auto mb-4 object-cover rounded-full">
+          <h3 class="text-xl mb-2">Cosmetics & Beauty</h3>
+        </div>
+        <div class="text-center">
+          <img src="images/industries-health-and-beauty.webp" alt="Face cream" class="h-32 w-32 mx-auto mb-4 object-cover rounded-full">
+          <h3 class="text-xl mb-2">Health & Personal Care</h3>
+        </div>
+        <div class="text-center">
+          <img src="images/industries-fmcg.webp" alt="Face cream" class="h-32 w-32 mx-auto mb-4 object-cover rounded-full">
+          <h3 class="text-xl mb-2">FMCG</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="py-16">
+    <div class="max-w-7xl mx-auto px-4">
+      <h2 class="text-3xl font-bold mb-10 text-center">Skills</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="text-center max-w-60 mx-auto">
+          <img src="images/skills-cosmetics-formulation.webp" alt="Cosmetics Formulation" class="h-32 w-32 mx-auto mb-4 object-cover rounded-full">
+          <h3 class="text-xl mb-4">Cosmetics Formulation</h3>
+          <p class="text-sm leading-6">I am passionate about beauty industry and I have been creating my own formulations since University</p>
+        </div>
+        <div class="text-center max-w-60 mx-auto mb-6">
+          <img src="images/skills-laboratory-analyses.webp" alt="Laboratory Analyses" class="h-32 w-32 mx-auto mb-4 object-cover rounded-full">
+          <h3 class="text-xl mb-4">Laboratory Analyses</h3>
+          <p class="text-sm leading-6">I have experience in conducting physicochemical and microbiological analyzes of FMCG products</p>
+        </div>
+        <div class="text-center max-w-60 mx-auto mb-6">
+          <img src="images/skills-project-management.webp" alt="Project Management" class="h-32 w-32 mx-auto mb-4 object-cover rounded-full">
+          <h3 class="text-xl mb-4">Project Management</h3>
+          <p class="text-sm leading-6">I managed multiple projects including development of new cosmetics and nutraceuticals</p>
+        </div>
+        <div class="text-center max-w-60 mx-auto mb-6">
+          <img src="images/skills-market-research.webp" alt="Market Research" class="h-32 w-32 mx-auto mb-4 object-cover rounded-full">
+          <h3 class="text-xl mb-4">Market Research</h3>
+          <p class="text-sm leading-6">I carried out an analysis of the market, competitors activities and potential customers</p>
+        </div>
+        <div class="text-center max-w-60 mx-auto mb-6">
+          <img src="images/skills-marketing-and-sales.webp" alt="Marketing & Sales" class="h-32 w-32 mx-auto mb-4 object-cover rounded-full">
+          <h3 class="text-xl mb-4">Marketing & Sales</h3>
+          <p class="text-sm leading-6">I identify customer needs, participate in creating marketing campaigns and sell ingredients for the healthcare industry</p>
+        </div>
+        <div class="text-center max-w-60 mx-auto mb-6">
+          <img src="images/skills-business-development.webp" alt="Business Development" class="h-32 w-32 mx-auto mb-4 object-cover rounded-full">
+          <h3 class="text-xl mb-4">Business Development</h3>
+          <p class="text-sm leading-6">I co-create development strategies, acquire new customers and provide concepts for new products</p>
+        </div>
+        <div class="text-center max-w-60 mx-auto mb-6">
+          <img src="images/skills-problem-solving.webp" alt="Problem Solving" class="h-32 w-32 mx-auto mb-4 object-cover rounded-full">
+          <h3 class="text-xl mb-4">Problem Solving</h3>
+          <p class="text-sm leading-6">I overcame multiple challenges including production issues, complaints and customer requirements during new product development</p>
+        </div>
+        <div class="text-center max-w-60 mx-auto mb-6">
+          <img src="images/skills-quality-assurance.webp" alt="Quality Assurance" class="h-32 w-32 mx-auto mb-4 object-cover rounded-full">
+          <h3 class="text-xl mb-4">Quality Assurance</h3>
+          <p class="text-sm leading-6">I am familiar with quality management systems and tools, I created internal procedures and conducted audits based on GMP, HACCP</p>
+        </div>
+        <div class="text-center max-w-60 mx-auto mb-6">
+          <img src="images/skills-safety-assessment.webp" alt="Safety Assessment" class="h-32 w-32 mx-auto mb-4 object-cover rounded-full">
+          <h3 class="text-xl mb-4">Safety Assessment</h3>
+          <p class="text-sm leading-6">I provided support to a regulatory team on the usage and limitations of raw materials, active ingredients, and substances</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="py-16" style="background-color: #e5f0fecc;">
+    <div class="max-w-7xl mx-auto px-4">
+      <h2 class="text-3xl font-bold mb-10 text-center">Projects</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div class="bg-white overflow-hidden">
+          <img src="images/facial-cream.webp" alt="Face cream" class="w-full h-48 object-cover">
+          <div class="p-8">
+            <h3 class="text-xl mb-6">Face Cream</h3>
+            <p class="text-sm leading-6">Nourishing light cream O/W type for mixed and sensitive skin with active ingredients including lactic acid and gluconolactone.</p>
+          </div>
+        </div>
+        <div class="bg-white overflow-hidden">
+          <img src="images/woman-cream.webp" alt="Peeling mask" class="w-full h-48 object-cover">
+          <div class="p-8">
+            <h3 class="text-xl mb-6">Peeling Mask</h3>
+            <p class="text-sm leading-6">Deep cleansing mask based on clay, algae, and proteolytic enzymes.</p>
+          </div>
+        </div>
+        <div class="bg-white overflow-hidden">
+          <img src="images/soap-bubbles.webp" alt="Shower gel" class="w-full h-48 object-cover">
+          <div class="p-8">
+            <h3 class="text-xl mb-6">Shower Gel</h3>
+            <p class="text-sm leading-6">Gentle body wash gel based on natural washing ingredients, like soapwort extract with strawberry and blackcurrant SC-CO2 seed oils, complies with the COSMOS standard.</p>
+          </div>
+        </div>
+        <div class="bg-white overflow-hidden">
+          <img src="images/cream-texture.webp" alt="Body butter" class="w-full h-48 object-cover">
+          <div class="p-8">
+            <h3 class="text-xl mb-6">Body Butter</h3>
+            <p class="text-sm leading-6">Moisturizing body butter rich in natural emollients like shea butter and pomegranate seed oil.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-16">
+    <div class="max-w-7xl mx-auto px-4 text-center">
+      <h2 class="text-3xl font-bold mb-6">Contact Me</h2>
+      <div class="flex justify-center space-x-8">
+        <a href="https://www.linkedin.com/in/sylwia-falk/" target="_blank" class="text-4xl text-gray-900 hover:text-blue-600">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="https://www.instagram.com/cosmeticinsight" target="_blank" class="text-4xl text-gray-900 hover:text-pink-600">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="tel:+48505938567" target="_blank" class="text-4xl text-gray-900 hover:text-green-600">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+        <a href="mailto:sylwiafalk.91@gmail.com" target="_blank" class="text-4xl text-gray-900 hover:text-red-600">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox-plus-jquery.min.js"></script>
+  <script>
+    lightbox.option({
+      'resizeDuration': 200,
+      'wrapAround': true,
+      "showImageNumberLabel": false
+    })
+</script>
+</body>
+</html>
